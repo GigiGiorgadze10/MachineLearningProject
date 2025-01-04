@@ -47,10 +47,10 @@ Follow the steps below to set up the project environment:
    ```bash
    https://github.com/GigiGiorgadze10/MachineLearningProject.git
 2. Navigate to the project directory:
-  ```bash
-  cd MachineLearningProject
-  ```
+   ```bash
+   cd MachineLearningProject
+   ```
 3. Install dependencies:
-  ```
-  pip install -r requirements.txt
-  ```
+   ```
+   pip install -r requirements.txt
+   ```
