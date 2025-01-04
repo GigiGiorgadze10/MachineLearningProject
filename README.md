@@ -54,3 +54,34 @@ Follow the steps below to set up the project environment:
    ```
    pip install -r requirements.txt
    ```
+
+
+## API and Libraries
+
+The project relies on the following libraries:
+
+  - **requests**: For making HTTP requests to fetch car listing data from the website.
+  - **beautifulsoup4**: For parsing and extracting relevant content from the HTML.
+  - **csv**: For saving the scraped data in CSV format.
+  - **re**: For handling regular expressions, used in cleaning and extracting relevant data.
+  - **pandas**: For data manipulation, cleaning, and preprocessing.
+  - **matplotlib**: For generating basic visualizations such as histograms, scatter plots, and bar charts.
+  - **seaborn**: For generating more advanced visualizations such as pie charts and residual plots.
+  - **scikit-learn**: For machine learning tasks such as model training (Random Forest Regressor) and evaluation (mean absolute error, mean squared error, etc.).
+
+---
+
+## Outputs
+
+The project generates the following outputs:
+
+  - **Scraped Data**: The car listings data is saved in a CSV file (`ss_cars.csv`), containing details such as car brand, model, year, mileage, transmission type, engine type, price, and location.
+  - **Visualizations**: Various visualizations are generated to explore the data:
+    - **Price Distribution Histogram**: Displays the distribution of car prices.
+    - **Top Car Brands Bar Chart**: Visualizes the most common car brands in the dataset.
+    - **Transmission Type Pie Chart**: Shows the distribution of transmission types in the listings.
+    - **Top Locations Bar Chart**: Displays the top 10 locations where the cars are listed.
+    - **Residual Plot**: Helps to assess how well the regression model's predictions match the actual prices.
+    - **Scatter Plot**: Shows the comparison between actual prices and predicted prices.
+
+---
