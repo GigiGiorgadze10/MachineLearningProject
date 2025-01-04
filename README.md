@@ -45,4 +45,12 @@ Follow the steps below to set up the project environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/car-price-prediction.git
+   git clone https://github.com/Gulverda/Scraper.git
+2. Navigate to the project directory:
+  ```bash
+  cd MachineLearningProject
+  ```
+3. Install dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
